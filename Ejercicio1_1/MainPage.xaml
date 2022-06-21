@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio1_1.MainPage">
+
+    <StackLayout>
+        <Label Text="Numero 1" FontSize="Title"  Margin="15,50,15,0" />
+        <Entry Keyboard="Numeric" x:Name="txbNum1" Margin="15,0" />
+
+        <Label Text="Numero 2" FontSize="Title" Margin="15,20,10,0" />
+        <Entry Keyboard="Numeric" x:Name="txbNum2" Margin="15,0" />
+
+        <Button Text="Suma" x:Name="btnSuma" Clicked="btnSuma_Clicked" Margin="15,10,15,0"/>
+        <Button Text="Resta" x:Name="btnResta" Clicked="btnResta_Clicked" Margin="15,0"/>
+        <Button Text="División" x:Name="btnDiv" Clicked="btnDiv_Clicked" Margin="15,0"/>
+        <Button Text="Multiplicación" x:Name="btnMult" Clicked="btnMult_Clicked" Margin="15,0"/>
+    </StackLayout>
+
+</ContentPage>
